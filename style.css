@@ -71,11 +71,12 @@
     }
 
     .header-text{
-        width: 50%;
+        width: 40%;
         height: auto;
         padding: 50px  20px;
         padding-left: 50px;
         margin-top: 30px;
+        margin-left: 10%;
     }
     .header-img{
         width: 100%;
@@ -336,6 +337,17 @@
       }
       .show-text .plus-icon {
         display: none;
+      }
+
+      @media only screen and (max-width : 780px) {
+        .header-text{
+          width: 50%;
+          height: auto;
+          padding: 50px  20px;
+          padding-left: 50px;
+          margin-top: 30px;
+          margin-left: 0%;
+      }
       }
 
       @media only screen and (max-width : 450px){
