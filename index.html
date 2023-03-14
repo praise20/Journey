@@ -1,153 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Journey</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/82f797382f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
+    <nav class="navbar">
+      <div class="logo_header">
+        <a href="#home" class="logo"
+          ><img src="/logo.png" alt="logo" class="logo-img"
+        /></a>
+        <a class="navbar_toggle">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+
+      <ul class="main_nav">
+        <li>
+          <a href="#home" class="nav_links">Home</a>
+        </li>
+        <li>
+          <a href="#projects" class="nav_links">Projects</a>
+        </li>
+        <li>
+          <a href="#review" class="nav_links">Review</a>
+        </li>
+        <li>
+          <a href="#faq" class="nav_links">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="center">
+      <div id="home">
+        <div class="header-text">
+          <h2>Welcome to my Frontend learning journey at Tramango</h2>
+          <p class="text">
+            Get a glimps of what I have learnt so far in frontend, majorly
+            JavaScript and some projects I worked on during my internship at
+            Tramango. Want to know about Tramango? Click the button to find out
+          </p>
+          <button class="about">Click Me</button>
+        </div>
+        <div class="header-hero">
+          <img src="/girl.jpg" class="header-img" />
+        </div>
   
-  <nav class="navbar">
-    <div class="logo_header">
-      <a href="#home" class="logo"><img src="/logo.png" alt="logo" class="logo-img"/></a>
-      <a class="navbar_toggle">
-        <i class="fas fa-bars"></i>
-      </a>
-    </div>
-
-    
-    <ul class="main_nav">
-      <li>
-        <a href="#home" class="nav_links">Home</a>
-      </li>
-      <li>
-        <a href="#projects" class="nav_links">Projects</a>
-      </li>
-      <li>
-        <a href="#review" class="nav_links">Review</a>
-      </li>
-      <li>
-        <a href="#faq" class="nav_links">FAQ</a>
-      </li>
-    </ul> 
-  </nav>
-
-  <div id="home">
-    <div class="header-text">
-        <h2>Welcome to my Frontend learning journey at Tramango</h2>
-        <p class="text">Get a glimps of what I have learnt so far in frontend, majorly JavaScript and some
-             projects I worked on during my internship at Tramango. Want to know
-             about Tramango? Click the button to find out</p>
-        <button class="about">Click Me</button>
-    </div>
-    <div class="header-hero">
-      <img src="/girl.jpg" class="header-img"/>
-   </div>
-
-    <!-- modal -->
-    <div class="modal-overlay">
-        <div class="modal-container">
-          <h2>About Tramango</h2>
-          <p>Tramango is a leading travel company in Nigeria committed to delivering premium travel experiences. Our services cover flight booking, hotel reservation, visa and documentation assistance,
-             tour packages, travel insurance, airport transfers, car Rentals, experience and events.</p>
-          <button class="close-btn">
-            <i class="fas fa-times"></i>
-          </button>
+        <!-- modal -->
+        <div class="modal-overlay">
+          <div class="modal-container">
+            <h2>About Tramango</h2>
+            <p>
+              Tramango is a leading travel company in Nigeria committed to
+              delivering premium travel experiences. Our services cover flight
+              booking, hotel reservation, visa and documentation assistance, tour
+              packages, travel insurance, airport transfers, car Rentals,
+              experience and events.
+            </p>
+            <button class="close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
         </div>
       </div>
+    </div>
 
-   
-  </div>
+    <!-- projects -->
 
-  <!-- projects -->
-
-  <div id="projects">
-    <h4>Projects</h4>
-    <div class="box">
-      <div class="project-container">
-        <div class="card">
+    <div id="projects">
+      <h4>Projects</h4>
+      <div class="box">
+        <div class="project-container">
+          <div class="card">
             <p>Modal</p>
-            <a href="https://modal-omega.vercel.app/" target="_blank"><button class="about">View</button></a>
-        </div>
-        
-        <div class="card">
+            <a href="https://modal-omega.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
             <p>Review Page</p>
-            <a href="https://reviews-page-bay.vercel.app/" target="_blank"><button class="about">View</button></a>
-        </div>
+            <a href="https://reviews-page-bay.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
 
-        <div class="card">
+          <div class="card">
             <p>FAQ Page</p>
-            <a href="https://faq-ivory.vercel.app/" target="_blank"><button class="about">View</button></a>
+            <a href="https://faq-ivory.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Huddle</p>
+            <a href="https://huddle-frontend-three.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Chrome Extension</p>
+            <a href="https://sales-chrome-extension.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Food Menu Page</p>
+            <a href="https://food-menu-two-bay.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Blackjack Game</p>
+            <a href="https://blackjack-game-seven.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Colour Flipper page</p>
+            <a href="https://colour-flipper.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Counter</p>
+            <a href="https://people-counter-kappa.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Tabs</p>
+            <a href="https://tabs-azure.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Quiz</p>
+            <a href="https://quiz-alpha-puce.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Sidebar</p>
+            <a href="https://sidebar-olive.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
+
+          <div class="card">
+            <p>Image Slider</p>
+            <a href="https://image-slider-phi.vercel.app/" target="_blank"
+              ><button class="about">View</button></a
+            >
+          </div>
         </div>
-
-        <div class="card">
-          <p>Huddle</p>
-          <a href="https://huddle-frontend-three.vercel.app/" target="_blank"><button class="about">View</button></a>
       </div>
-
-      <div class="card">
-        <p>Chrome Extension</p>
-        <a href="https://sales-chrome-extension.vercel.app/" target="_blank"><button class="about">View</button></a>
     </div>
 
-    <div class="card">
-      <p>Food Menu Page</p>
-      <a href="https://food-menu-two-bay.vercel.app/" target="_blank"><button class="about">View</button></a>
-  </div>
+    <!-- reviews -->
 
-<div class="card">
-    <p>Blackjack Game</p>
-    <a href="https://blackjack-game-seven.vercel.app/" target="_blank"><button class="about">View</button></a>
-</div>
-
-<div class="card">
-  <p>Colour Flipper page</p>
-  <a href="https://colour-flipper.vercel.app/" target="_blank"><button class="about">View</button></a>
-</div>
-
-<div class="card">
-  <p>Counter</p>
-  <a href="https://people-counter-kappa.vercel.app/" target="_blank"><button class="about">View</button></a>
-</div>
-
-<div class="card">
-  <p>Tabs</p>
-  <a href="https://tabs-azure.vercel.app/" target="_blank"><button class="about">View</button></a>
-</div>
-
-<div class="card">
-  <p>Sidebar</p>
-  <a href="https://sidebar-olive.vercel.app/" target="_blank"><button class="about">View</button></a>
-</div>
-
-<div class="card">
-  <p>Image Slider</p>
-  <a href="https://image-slider-phi.vercel.app/" target="_blank"><button class="about">View</button></a>
-</div>
-    </div>
-    </div>
-  </div>
-
-  <!-- reviews -->
-
-  <div id="review" class="container">
+    <div id="review" class="container">
       <h4 class="title">Reviews</h4>
       <article class="review">
         <div class="img-container">
-          <img id="person-img" src="/female 2.png" alt="">
+          <img id="person-img" src="/female 2.png" alt="" />
         </div>
         <h4 id="author">Sara Lami</h4>
         <p id="job">Teacher</p>
-        <p id="info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-          Aenean commodo ligula eget dolor. Aenean massa. 
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        <p id="info">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus.
         </p>
         <div class="button-container">
           <button class="prev-btn">
@@ -158,89 +203,96 @@
           </button>
         </div>
       </article>
-  </div>
-
-  <!-- FAQ starts -->
-<div id="faq">
-  <section class="questions">
-    <div class="title">
-      <h2>Some Questions You Might have</h2>
     </div>
-    
-    <div class="section-center">
-      <!-- question starts -->
-      <article class="question">
-        <div class="question-title">
-          <P>Can we get an introduction?</P>
-          <button type="button" class="question-btn">
-            <span class="plus-icon">
-              <i class="far fa-plus-square"></i>
-            </span>
 
-            <span class="minus-icon">
-              <i class="far fa-minus-square"></i>
-            </span>
-          </button>
+    <!-- FAQ starts -->
+    <div id="faq">
+      <section class="questions">
+        <div class="title">
+          <h2>Some Questions You Might have</h2>
         </div>
 
-        <div class="question-text">
-          <p>I am Oluyale Praise, a 400 level Computer Science student of The Federal University of Akure (FUTA).
-            I am presently undergoing my internship program at Tramango .
-          </p>
+        <div class="section-center">
+          <!-- question starts -->
+          <article class="question">
+            <div class="question-title">
+              <p>Can we get an introduction?</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+
+            <div class="question-text">
+              <p>
+                I am Oluyale Praise, a 400 level Computer Science student of The
+                Federal University of Akure (FUTA). I am presently undergoing my
+                internship program at Tramango .
+              </p>
+            </div>
+          </article>
+          <!-- question ends -->
+
+          <!-- question starts -->
+          <article class="question">
+            <div class="question-title">
+              <p>How did software Devopment come about?</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+
+            <div class="question-text">
+              <p>
+                I have known about software development and programing for a
+                long time because i'm surrounded by people in that field. I
+                started my software development journey in 2018, it was off and
+                on for a while until 2022 when I started to get more consistent
+                in my learning.
+              </p>
+            </div>
+          </article>
+          <!-- question ends -->
+
+          <!-- question starts -->
+          <article class="question">
+            <div class="question-title">
+              <p>If not frontend development, what?</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+
+            <div class="question-text">
+              <p>
+                Definitely design (more on UI than UX). I personally do better
+                in design than frontend development, so if I am to make a choice
+                design wins hands down.
+              </p>
+            </div>
+          </article>
+          <!-- question ends -->
         </div>
-      </article>
-      <!-- question ends -->
-
-      <!-- question starts -->
-      <article class="question">
-        <div class="question-title">
-          <P>How did software Devopment come about?</P>
-          <button type="button" class="question-btn">
-            <span class="plus-icon">
-              <i class="far fa-plus-square"></i>
-            </span>
-
-            <span class="minus-icon">
-              <i class="far fa-minus-square"></i>
-            </span>
-          </button>
-        </div>
-
-        <div class="question-text">
-          <p>I have known about software development and programing for a long time because 
-            i'm surrounded by people in that field. I started my software development journey in 2018, it was off and on for a while until 2022 when I started to get more consistent in my learning.
-        </p>
-        </div>
-      </article>
-      <!-- question ends -->
-
-      <!-- question starts -->
-      <article class="question">
-        <div class="question-title">
-          <P>If not frontend development, what?</P>
-          <button type="button" class="question-btn">
-            <span class="plus-icon">
-              <i class="far fa-plus-square"></i>
-            </span>
-
-            <span class="minus-icon">
-              <i class="far fa-minus-square"></i>
-            </span>
-          </button>
-        </div>
-
-        <div class="question-text">
-          <p>Definitely design (more on UI than UX). I personally do better in design than frontend
-             development, so if I am to make a choice design wins hands down.</p>
-        </div>
-      </article>
-      <!-- question ends -->
+      </section>
     </div>
-  </section>
-</div>
 
-
-
-  <script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>

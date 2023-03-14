@@ -59,24 +59,21 @@
     }
 
     #home{
+        width: 800px;
+        height: auto;
         display: flex;
         flex-direction: row;
+        padding-top: 60px;
     }
 
     .header-hero{
         width: 40%;
         height: auto;
-        padding: 20px;
-        margin-top: 30px;
     }
 
     .header-text{
-        width: 40%;
+        width: 60%;
         height: auto;
-        padding: 50px  20px;
-        padding-left: 50px;
-        margin-top: 30px;
-        margin-left: 10%;
     }
     .header-img{
         width: 100%;
@@ -84,6 +81,12 @@
         max-width: 500px;
         max-height: 500px;
         object-fit: contain;
+        justify-content: right;
+    }
+
+    .center{
+      display: flex;
+      justify-content: center;
     }
     .text{
         font-size: 14px;
@@ -120,14 +123,15 @@
         padding-bottom: 20px;
     }
     .box{
-      width: 100%;
+      max-width: 800px;
+      margin:0 auto;
     }
     .project-container{
         max-width: 800px;
         margin:0 auto;
         display: grid;
         grid-template-columns: auto auto auto auto;
-        justify-content: center;
+        justify-content: space-between;
         gap: 20px;
         row-gap: 20px;
         padding-bottom: 20px;
@@ -204,8 +208,8 @@
       }
       .review {
         background: #ffffff;
-        width: 50%;
-        padding: 1.5rem 2rem;
+        width: 800px;
+        padding: 20px;
         border: 0.5px solid blueviolet;
         border-radius:20px;
         box-shadow:10px 8px 15px -10px #888888;
@@ -283,9 +287,10 @@
         font-weight: 600;
       }
       .section-center {
-        max-width:620px;
+        max-width: 900px;
       }
       .question {
+        max-width: 800px;
         background: #fff;
         border-radius: 20px;
         box-shadow: 10px 8px 15px -16px #888888;
@@ -348,10 +353,27 @@
           margin-top: 30px;
           margin-left: 0%;
       }
+      /* .section-center {
+        width:600px;
+      } */
+      .review{
+        max-width: 600px;
+      }
+      /* .question{
+        width: 550px;
+        margin: 20px 0px;
+      } */
       }
 
       @media only screen and (max-width : 450px){
 
+        /* .section-center {
+          width:400px;
+        }
+        .question{
+          width: 150px;
+          margin: 20px 0px;
+        } */
         .box{
           width: 100%;
         }
